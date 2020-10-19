@@ -30,7 +30,6 @@ p {
 li {
   color: #263859;
   text-align: left;
-  list-style-type: square;
   line-height: 2;
 }
 
@@ -173,12 +172,16 @@ img {
   border-radius: 100%;
 }
 
-.experience-box {
+.professional-experience-box{
   padding-top: 1%;
   background-color: #fbd1b7;
   padding-bottom: 1%;
 }
-
+.work-experience-box{
+  padding-top: 1%;
+  background-color: #bee9cc;
+  padding-bottom: 1%;
+}
 .lockheed-martin-pic {
   margin: auto 10% auto auto;
   float: left;
@@ -194,6 +197,21 @@ img {
   width: 30%;
 }
 
+.ibm-pic {
+  margin: auto 10% auto auto;
+  float: left;
+  height: 30%;
+  width: 30%;
+  border-radius: 100%;
+}
+
+.xpanxion-pic {
+  margin: auto 10% auto auto;
+  float: left;
+  height: 30%;
+  width: 30%;
+  border-radius: 100%;
+}
 .experience-row {
   margin: auto 20% 10% 20%;
 }
@@ -217,7 +235,7 @@ img {
 
 .projects-radius-pic {
   margin: auto 10% auto auto;
-  float: left;
+  float: right;
   height: 30%;
   width: 30%;
   border-radius: 100%;
@@ -231,6 +249,13 @@ img {
   border-radius: 100%;
 }
 
+.projects-list {
+  list-style-type: none;
+}
+
+.square-list {
+  list-style-type: square;
+}
 .langauges-box {
   background-color: #ffe2e2;
   padding-top: 1%;
